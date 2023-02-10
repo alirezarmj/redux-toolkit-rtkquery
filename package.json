@@ -1,0 +1,29 @@
+{
+  "name": "todolist-redux-toolkit",
+  "private": true,
+  "version": "0.0.0",
+    "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite --port 3000\" \"cd server && npm start\" ",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
+  }
+}
