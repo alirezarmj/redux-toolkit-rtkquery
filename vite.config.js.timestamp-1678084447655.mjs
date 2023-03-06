@@ -2,7 +2,8 @@
 import { defineConfig } from "file:///media/javid/343CD6163CD5D2CA/1Front-End/Redux_Toolkit_Dave/TodoList-redux-toolkit/node_modules/vite/dist/node/index.js";
 import react from "file:///media/javid/343CD6163CD5D2CA/1Front-End/Redux_Toolkit_Dave/TodoList-redux-toolkit/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
-    plugins: [react()]
+
+  plugins: [react()]
 });
 export {
   vite_config_default as default
